@@ -1,0 +1,109 @@
+@import "tailwindcss";
+@import "./phosphor-subset.css";
+
+@font-face {
+  font-family: "Phosphor-Bold";
+  src: url("/fonts/Phosphor-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Phosphor-Fill";
+  src: url("/fonts/Phosphor-Fill.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme inline {
+  --color-win-bg: #f4f6fb;
+  --color-win-navy: #003975;
+  --color-win-navy-dark: #002456;
+  --color-win-navy-hover: #004fa3;
+  --color-win-sky: #1bb1e7;
+  --color-win-sky-light: #e6f6fd;
+  --color-win-card: #ffffff;
+  --color-win-text-gray: #6b7280;
+  --color-win-text-dark: #0f1e35;
+
+  --font-sans: var(--font-pretendard), -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+}
+
+body {
+  background-color: #f4f6fb;
+  color: #0f1e35;
+  -webkit-font-smoothing: antialiased;
+  word-break: keep-all;
+}
+
+@layer components {
+  .bento-card {
+    background: #fff;
+    border-radius: 1.75rem;
+    box-shadow: 0 4px 24px rgba(0, 57, 117, 0.06);
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    overflow: hidden;
+    position: relative;
+  }
+  .bento-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 48px rgba(0, 57, 117, 0.14);
+  }
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #003975, #1bb1e7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-gradient-win {
+  background: linear-gradient(135deg, #003975 0%, #005cb8 60%, #1bb1e7 100%);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.97);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.shadow-win {
+  box-shadow: 0 4px 24px rgba(0, 57, 117, 0.06);
+}
+.shadow-win-hover {
+  box-shadow: 0 12px 48px rgba(0, 57, 117, 0.14);
+}
+.shadow-sky {
+  box-shadow: 0 8px 32px rgba(27, 177, 231, 0.22);
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f0f0f5; }
+::-webkit-scrollbar-thumb { background: #b0bdd8; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #7890b8; }
+
+.bento-card > summary::-webkit-details-marker { display: none; }
+.bento-card > summary { list-style: none; }
+details[open] > summary .faq-icon { transform: rotate(45deg); }
+.faq-icon { transition: transform 0.2s ease; }
+
+.sticky-cta {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 40;
+  transition: all 0.3s ease;
+}

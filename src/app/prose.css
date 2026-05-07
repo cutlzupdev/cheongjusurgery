@@ -1,0 +1,6 @@
+@import "tailwindcss" source(none);
+@source "./[slug]/page.tsx";
+@source "./privacy/page.tsx";
+@source "./terms/page.tsx";
+@source "./news/[slug]/page.tsx";
+@plugin "@tailwindcss/typography";

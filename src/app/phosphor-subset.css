@@ -1,0 +1,512 @@
+/* Generated subset of @phosphor-icons/web — only icons actually used.
+   @font-face declarations live in globals.css with font-display:swap. */
+
+.ph-bold {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "Phosphor-Bold" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ph-bold.ph-arrow-right:before {
+  content: "\e06c";
+}
+
+.ph-bold.ph-arrows-merge:before {
+  content: "\ed3e";
+}
+
+.ph-bold.ph-article:before {
+  content: "\e0a8";
+}
+
+.ph-bold.ph-bandaids:before {
+  content: "\e0b2";
+}
+
+.ph-bold.ph-barbell:before {
+  content: "\e0b6";
+}
+
+.ph-bold.ph-briefcase:before {
+  content: "\e0ee";
+}
+
+.ph-bold.ph-calendar-check:before {
+  content: "\e712";
+}
+
+.ph-bold.ph-caret-down:before {
+  content: "\e136";
+}
+
+.ph-bold.ph-chart-bar:before {
+  content: "\e150";
+}
+
+.ph-bold.ph-check:before {
+  content: "\e182";
+}
+
+.ph-bold.ph-check-circle:before {
+  content: "\e184";
+}
+
+.ph-bold.ph-clock:before {
+  content: "\e19a";
+}
+
+.ph-bold.ph-dot-outline:before {
+  content: "\ece0";
+}
+
+.ph-bold.ph-drop:before {
+  content: "\e210";
+}
+
+.ph-bold.ph-eye:before {
+  content: "\e220";
+}
+
+.ph-bold.ph-file-text:before {
+  content: "\e23a";
+}
+
+.ph-bold.ph-first-aid:before {
+  content: "\e56e";
+}
+
+.ph-bold.ph-first-aid-kit:before {
+  content: "\e570";
+}
+
+.ph-bold.ph-graduation-cap:before {
+  content: "\e62c";
+}
+
+.ph-bold.ph-heartbeat:before {
+  content: "\e2ac";
+}
+
+.ph-bold.ph-info:before {
+  content: "\e2ce";
+}
+
+.ph-bold.ph-knife:before {
+  content: "\e636";
+}
+
+.ph-bold.ph-lightning:before {
+  content: "\e2de";
+}
+
+.ph-bold.ph-magnifying-glass:before {
+  content: "\e30c";
+}
+
+.ph-bold.ph-map-pin:before {
+  content: "\e316";
+}
+
+.ph-bold.ph-medal:before {
+  content: "\e320";
+}
+
+.ph-bold.ph-navigation-arrow:before {
+  content: "\eade";
+}
+
+.ph-bold.ph-person-simple-run:before {
+  content: "\e730";
+}
+
+.ph-bold.ph-person-simple-walk:before {
+  content: "\e73a";
+}
+
+.ph-bold.ph-phone:before {
+  content: "\e3b8";
+}
+
+.ph-bold.ph-plus:before {
+  content: "\e3d4";
+}
+
+.ph-bold.ph-question:before {
+  content: "\e3e8";
+}
+
+.ph-bold.ph-shield-check:before {
+  content: "\e40c";
+}
+
+.ph-bold.ph-sliders:before {
+  content: "\e432";
+}
+
+.ph-bold.ph-sneaker:before {
+  content: "\e80c";
+}
+
+.ph-bold.ph-stethoscope:before {
+  content: "\e7ea";
+}
+
+.ph-bold.ph-target:before {
+  content: "\e47c";
+}
+
+.ph-bold.ph-test-tube:before {
+  content: "\e7a0";
+}
+
+.ph-bold.ph-tree:before {
+  content: "\e6da";
+}
+
+.ph-bold.ph-trophy:before {
+  content: "\e67e";
+}
+
+.ph-bold.ph-user:before {
+  content: "\e4c2";
+}
+
+.ph-bold.ph-users:before {
+  content: "\e4d6";
+}
+
+.ph-bold.ph-users-three:before {
+  content: "\e68e";
+}
+
+.ph-bold.ph-warning:before {
+  content: "\e4e0";
+}
+
+.ph-fill {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "Phosphor-Fill" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ph-bold.ph-activity:before {
+  content: "\e000";
+}
+
+.ph-bold.ph-anchor:before {
+  content: "\e514";
+}
+
+.ph-bold.ph-arrows-clockwise:before {
+  content: "\e094";
+}
+
+.ph-bold.ph-arrows-counter-clockwise:before {
+  content: "\e096";
+}
+
+.ph-bold.ph-arrows-down-up:before {
+  content: "\e098";
+}
+
+.ph-bold.ph-arrows-in:before {
+  content: "\e09a";
+}
+
+.ph-bold.ph-arrows-in-cardinal:before {
+  content: "\e09c";
+}
+
+.ph-bold.ph-arrows-out:before {
+  content: "\e0a2";
+}
+
+.ph-bold.ph-baby:before {
+  content: "\e774";
+}
+
+.ph-bold.ph-baseball:before {
+  content: "\e71a";
+}
+
+.ph-bold.ph-bed:before {
+  content: "\e0cc";
+}
+
+.ph-bold.ph-bone:before {
+  content: "\e7f2";
+}
+
+.ph-bold.ph-bowl-food:before {
+  content: "\eaa4";
+}
+
+.ph-bold.ph-car:before {
+  content: "\e112";
+}
+
+.ph-bold.ph-chart-pie-slice:before {
+  content: "\e15a";
+}
+
+.ph-bold.ph-circle-dashed:before {
+  content: "\e602";
+}
+
+.ph-bold.ph-clock-countdown:before {
+  content: "\ed2c";
+}
+
+.ph-bold.ph-desktop:before {
+  content: "\e560";
+}
+
+.ph-bold.ph-device-mobile:before {
+  content: "\e1e0";
+}
+
+.ph-bold.ph-diamond:before {
+  content: "\e1ec";
+}
+
+.ph-bold.ph-dna:before {
+  content: "\e924";
+}
+
+.ph-bold.ph-drop-half:before {
+  content: "\e566";
+}
+
+.ph-bold.ph-footprints:before {
+  content: "\ea88";
+}
+
+.ph-bold.ph-fork-knife:before {
+  content: "\e262";
+}
+
+.ph-bold.ph-globe:before {
+  content: "\e288";
+}
+
+.ph-bold.ph-hand:before {
+  content: "\e298";
+}
+
+.ph-bold.ph-hand-fist:before {
+  content: "\e57a";
+}
+
+.ph-bold.ph-hand-grabbing:before {
+  content: "\e57c";
+}
+
+.ph-bold.ph-hand-palm:before {
+  content: "\e57e";
+}
+
+.ph-bold.ph-hand-pointing:before {
+  content: "\e29a";
+}
+
+.ph-bold.ph-hand-waving:before {
+  content: "\e580";
+}
+
+.ph-bold.ph-high-heel:before {
+  content: "\e8e8";
+}
+
+.ph-bold.ph-hourglass-high:before {
+  content: "\e2b4";
+}
+
+.ph-bold.ph-house:before {
+  content: "\e2c2";
+}
+
+.ph-bold.ph-leaf:before {
+  content: "\e2da";
+}
+
+.ph-bold.ph-line-segments:before {
+  content: "\e6d4";
+}
+
+.ph-bold.ph-list:before {
+  content: "\e2f0";
+}
+
+.ph-bold.ph-lock:before {
+  content: "\e2fa";
+}
+
+.ph-bold.ph-microscope:before {
+  content: "\ec7a";
+}
+
+.ph-bold.ph-person:before {
+  content: "\e3a8";
+}
+
+.ph-bold.ph-person-arms-spread:before {
+  content: "\ecfe";
+}
+
+.ph-bold.ph-person-simple:before {
+  content: "\e72e";
+}
+
+.ph-bold.ph-pill:before {
+  content: "\e700";
+}
+
+.ph-bold.ph-prohibit:before {
+  content: "\e3de";
+}
+
+.ph-bold.ph-scales:before {
+  content: "\e750";
+}
+
+.ph-bold.ph-scissors:before {
+  content: "\eae0";
+}
+
+.ph-bold.ph-shooting-star:before {
+  content: "\ecfa";
+}
+
+.ph-bold.ph-shuffle:before {
+  content: "\e422";
+}
+
+.ph-bold.ph-sneaker-move:before {
+  content: "\ed60";
+}
+
+.ph-bold.ph-snowflake:before {
+  content: "\e5aa";
+}
+
+.ph-bold.ph-soccer-ball:before {
+  content: "\e716";
+}
+
+.ph-bold.ph-steps:before {
+  content: "\ecbe";
+}
+
+.ph-bold.ph-syringe:before {
+  content: "\e968";
+}
+
+.ph-bold.ph-tennis-ball:before {
+  content: "\e720";
+}
+
+.ph-bold.ph-timer:before {
+  content: "\e492";
+}
+
+.ph-bold.ph-trend-up:before {
+  content: "\e4ae";
+}
+
+.ph-bold.ph-user-check:before {
+  content: "\eafa";
+}
+
+.ph-bold.ph-user-circle:before {
+  content: "\e4c4";
+}
+
+.ph-bold.ph-warning-circle:before {
+  content: "\e4e2";
+}
+
+.ph-bold.ph-wave-sine:before {
+  content: "\ea9a";
+}
+
+.ph-bold.ph-wheelchair:before {
+  content: "\e4e8";
+}
+
+.ph-bold.ph-wine:before {
+  content: "\e6b2";
+}
+
+.ph-bold.ph-wrench:before {
+  content: "\e5d4";
+}
+
+.ph-bold.ph-x:before {
+  content: "\e4f6";
+}
+
+.ph-bold.ph-lock-key:before {
+  content: "\e2fe";
+}
+
+.ph-bold.ph-scan:before {
+  content: "\ebb6";
+}
+
+.ph-bold.ph-star:before {
+  content: "\e46a";
+}
+
+.ph-bold.ph-thermometer:before {
+  content: "\e5c6";
+}
+
+.ph-bold.ph-wind:before {
+  content: "\e5d2";
+}
+
+.ph-fill.ph-chat-circle:before {
+  content: "\e168";
+}
+
+.ph-fill.ph-star:before {
+  content: "\e46a";
+}
