@@ -264,7 +264,7 @@ export const conditions: Condition[] = [
     titleShort: "무릎 관절염",
     metaTitle: "청주 무릎 관절염 치료 — 윈윈정형외과 수술재활센터",
     metaDescription:
-      "청주 정형외과 윈윈에서 무릎 관절염 증상·원인·치료법 정리. PRP 주사·재생주사 비수술 치료부터 관절경 수술까지, 전문의가 직접 집도.",
+      "청주 정형외과 윈윈의 무릎 관절염 증상·원인·치료법. 관절연골·콜라겐·재생·PRP 단계별 비수술부터 관절경 수술까지, 전문의 직접 집도.",
     keywords: "청주 무릎 관절염, 무릎 관절염 치료, 청주 정형외과, PRP 주사 청주",
     canonicalPath: "/knee/osteoarthritis",
     heroTitle: "청주 무릎 관절염",
@@ -355,7 +355,7 @@ export const conditions: Condition[] = [
       ],
     },
     datePublished: "2025-02-01",
-    dateModified: "2026-04-10",
+    dateModified: "2026-06-24",
   },
   {
     slug: "meniscus",
@@ -476,7 +476,8 @@ export const conditions: Condition[] = [
     title: "청주 십자인대 손상 치료 · 수술",
     titleShort: "십자인대 손상",
     metaTitle: "청주 십자인대 손상 치료 · 수술 — 윈윈정형외과",
-    metaDescription: "청주 정형외과 윈윈에서 십자인대 손상(ACL/PCL) 치료. 재건술 및 스포츠 재활 전문.",
+    metaDescription:
+      "청주 정형외과 윈윈의 십자인대 손상(ACL·PCL) 증상·원인·치료법. 재활·보조기 비수술부터 전방·후방 재건술까지, 스포츠 재활로 빠른 복귀.",
     keywords: "청주 십자인대, ACL 재건술, PCL 수술 청주, 무릎 인대 청주",
     canonicalPath: "/knee/acl-pcl",
     heroTitle: "청주 십자인대 손상",
@@ -579,7 +580,7 @@ export const conditions: Condition[] = [
       ],
     },
     datePublished: "2025-02-01",
-    dateModified: "2026-04-10",
+    dateModified: "2026-06-24",
   },
   {
     slug: "tendinitis",
@@ -588,7 +589,8 @@ export const conditions: Condition[] = [
     title: "청주 무릎 힘줄염 치료",
     titleShort: "무릎 힘줄염",
     metaTitle: "청주 무릎 힘줄염 치료 — 윈윈정형외과",
-    metaDescription: "청주 정형외과 윈윈에서 무릎 힘줄염(슬개건염) 치료. PRP 주사, ESWT, 재활치료.",
+    metaDescription:
+      "청주 정형외과 윈윈의 무릎 힘줄염(슬개건염) 증상·원인·치료법. 약물·ESWT·염증 주사부터 PRP·콜라겐·재생주사까지 단계별, 빠른 복귀.",
     keywords: "청주 무릎 힘줄염, 슬개건염 치료, 점퍼스 니 청주",
     canonicalPath: "/knee/tendinitis",
     heroTitle: "청주 무릎 힘줄염,",
@@ -689,7 +691,7 @@ export const conditions: Condition[] = [
       ],
     },
     datePublished: "2025-02-15",
-    dateModified: "2026-04-10",
+    dateModified: "2026-06-24",
   },
   // ========== SHOULDER ==========
   {
@@ -699,7 +701,8 @@ export const conditions: Condition[] = [
     title: "청주 회전근개 파열 치료 · 수술",
     titleShort: "회전근개 파열",
     metaTitle: "청주 회전근개 파열 치료 · 수술 — 윈윈정형외과",
-    metaDescription: "청주 정형외과 윈윈에서 회전근개 파열 치료. PRP 주사 비수술부터 관절경 봉합 수술까지, 전문의 직접 집도.",
+    metaDescription:
+      "청주 정형외과 윈윈의 회전근개 파열 증상·원인·치료법. PRP·재생주사·ESWT 비수술부터 관절경 봉합술까지, 전문의 직접 집도.",
     keywords: "청주 회전근개 파열, 어깨 힘줄 파열, PRP 주사 청주, 어깨 수술 청주",
     canonicalPath: "/shoulder/rotator-cuff",
     heroTitle: "청주 회전근개 파열",
@@ -783,7 +786,7 @@ export const conditions: Condition[] = [
       ],
     },
     datePublished: "2025-01-20",
-    dateModified: "2026-04-10",
+    dateModified: "2026-06-24",
   },
   {
     slug: "frozen-shoulder",
@@ -792,7 +795,8 @@ export const conditions: Condition[] = [
     title: "청주 오십견 치료",
     titleShort: "오십견",
     metaTitle: "청주 오십견(동결견) 치료 — 윈윈정형외과",
-    metaDescription: "청주 정형외과 윈윈에서 오십견(동결견) 치료. 주사치료, 도수치료, 재활운동으로 빠른 회복.",
+    metaDescription:
+      "청주 정형외과 윈윈의 오십견(동결견) 증상·원인·치료법. 염증 주사·PRP·재생주사와 전문 재활로 비수술 회복, 회전근개 파열 감별 진단.",
     keywords: "청주 오십견, 동결견 치료, 어깨 굳음 청주",
     canonicalPath: "/shoulder/frozen-shoulder",
     heroTitle: "청주 오십견",
@@ -876,7 +880,7 @@ export const conditions: Condition[] = [
       ],
     },
     datePublished: "2025-02-01",
-    dateModified: "2026-04-10",
+    dateModified: "2026-06-24",
   },
   {
     slug: "impingement",
@@ -885,7 +889,8 @@ export const conditions: Condition[] = [
     title: "청주 어깨 충돌증후군 치료",
     titleShort: "어깨 충돌증후군",
     metaTitle: "청주 어깨 충돌증후군 치료 — 윈윈정형외과",
-    metaDescription: "청주 어깨 충돌증후군 치료. ESWT, PRP 주사, 재활치료로 비수술 회복.",
+    metaDescription:
+      "청주 정형외과 윈윈의 어깨 충돌증후군 증상·원인·치료법. ESWT·PRP·재생주사·재활로 대부분 비수술 회복, 회전근개 파열과 감별 진단.",
     keywords: "청주 충돌증후군, 어깨 충돌 치료, 견봉하 충돌 청주",
     canonicalPath: "/shoulder/impingement",
     heroTitle: "청주 어깨 충돌증후군",
@@ -968,7 +973,7 @@ export const conditions: Condition[] = [
       ],
     },
     datePublished: "2025-02-10",
-    dateModified: "2026-04-10",
+    dateModified: "2026-06-24",
   },
   {
     slug: "calcific-tendinitis",
@@ -1071,7 +1076,8 @@ export const conditions: Condition[] = [
     titleShort: "어깨 탈구·불안정증",
 
     metaTitle: "청주 어깨 탈구·불안정증 치료 — 윈윈정형외과",
-    metaDescription: "청주 어깨 탈구·불안정증 치료. 관절경 봉합술로 재탈구 예방.",
+    metaDescription:
+      "청주 정형외과 윈윈의 어깨 탈구·불안정증 증상·원인·치료법. SLAP·Bankart 정밀 진단 후 PRP·재활 비수술부터 관절경 봉합술까지.",
     keywords: "청주 어깨 탈구, 어깨 불안정증, 습관성 탈구 청주",
     canonicalPath: "/shoulder/instability",
     heroTitle: "청주 어깨 탈구·불안정증",
@@ -1154,7 +1160,7 @@ export const conditions: Condition[] = [
       ],
     },
     datePublished: "2025-02-10",
-    dateModified: "2026-04-10",
+    dateModified: "2026-06-24",
   },
   // ========== FOOT (additional) ==========
   {
@@ -1449,7 +1455,7 @@ export const conditions: Condition[] = [
     titleShort: "엄지발가락관절염",
     metaTitle: "청주 엄지발가락관절염 치료 · 수술 — 윈윈정형외과 수술재활센터",
     metaDescription:
-      "청주 정형외과 윈윈에서 엄지발가락관절염(무지강직증) 치료. 골극 제거부터 관절 고정술까지.",
+      "청주 정형외과 윈윈의 엄지발가락관절염(무지강직증) 증상·원인·치료법. 인솔·약물 비수술부터 골극 제거술·관절 고정술까지, 조기 보행.",
     keywords: "청주 엄지발가락관절염, 무지강직증, hallux rigidus 청주",
     canonicalPath: "/foot/hallux-rigidus",
     heroTitle: "청주 엄지발가락관절염",
@@ -1540,7 +1546,7 @@ export const conditions: Condition[] = [
       ],
     },
     datePublished: "2025-01-20",
-    dateModified: "2026-04-10",
+    dateModified: "2026-06-24",
   },
   {
     slug: "rheumatoid",
@@ -1550,7 +1556,7 @@ export const conditions: Condition[] = [
     titleShort: "류마티스 발 변형",
     metaTitle: "청주 류마티스 발 변형 치료 — 윈윈정형외과",
     metaDescription:
-      "청주 정형외과 윈윈에서 류마티스 발 변형 치료. 약물치료부터 발가락 교정술까지.",
+      "청주 정형외과 윈윈의 류마티스 발 변형 증상·원인·치료법. DMARDs 약물로 진행 억제, 인솔·재활부터 발가락 교정술·절골 고정술까지.",
     keywords: "청주 류마티스 발 변형, 류마티스 족부, 청주 정형외과",
     canonicalPath: "/foot/rheumatoid",
     heroTitle: "청주 류마티스 발 변형",
@@ -1636,7 +1642,7 @@ export const conditions: Condition[] = [
       ],
     },
     datePublished: "2025-01-20",
-    dateModified: "2026-04-10",
+    dateModified: "2026-06-24",
   },
   {
     slug: "toe-deformity",
@@ -1646,7 +1652,7 @@ export const conditions: Condition[] = [
     titleShort: "발가락 변형",
     metaTitle: "청주 발가락 변형 치료 · 수술 — 윈윈정형외과",
     metaDescription:
-      "청주 정형외과 윈윈에서 망치족·갈퀴족·단지증·내향성 발톱 치료. 당일 수술, 조기 보행.",
+      "청주 정형외과 윈윈의 발가락 변형 증상·원인·치료법. 망치족·갈퀴족·단지증·내향성 발톱을 교정기·인솔부터 교정술·연장술·발톱 수술까지, 조기 보행.",
     keywords: "청주 발가락 변형, 망치족, 갈퀴족, 단지증, 내향성 발톱 청주",
     canonicalPath: "/foot/toe-deformity",
     heroTitle: "청주 발가락 변형",
@@ -1736,7 +1742,7 @@ export const conditions: Condition[] = [
       ],
     },
     datePublished: "2025-01-20",
-    dateModified: "2026-04-10",
+    dateModified: "2026-06-24",
   },
   {
     slug: "mortons-neuroma",
@@ -1846,7 +1852,7 @@ export const conditions: Condition[] = [
     titleShort: "부주상골 증후군",
     metaTitle: "청주 부주상골 치료 — 윈윈정형외과",
     metaDescription:
-      "청주 정형외과 윈윈에서 부주상골 증후군 치료. ESWT·주사·인솔 비수술부터 Kidner 수술까지.",
+      "청주 정형외과 윈윈의 부주상골 증후군 증상·원인·치료법. 닥터포디 인솔·ESWT·주사 비수술 우선, 절제술(Kidner)·후경골건 재건술.",
     keywords: "청주 부주상골, 부주상골 증후군, Kidner 수술 청주",
     canonicalPath: "/foot/accessory-navicular",
     heroTitle: "청주 부주상골 증후군",
@@ -1932,7 +1938,7 @@ export const conditions: Condition[] = [
       ],
     },
     datePublished: "2025-01-20",
-    dateModified: "2026-04-10",
+    dateModified: "2026-06-24",
   },
   {
     slug: "ganglion",
@@ -1942,7 +1948,7 @@ export const conditions: Condition[] = [
     titleShort: "발 물혹(결절종)",
     metaTitle: "청주 발 물혹(결절종) 치료 — 윈윈정형외과",
     metaDescription:
-      "청주 정형외과 윈윈에서 발 물혹(결절종·갱글리온) 치료. 초음파 진단, 주사 흡인술·절제술.",
+      "청주 정형외과 윈윈의 발 물혹(결절종·갱글리온) 증상·원인·치료법. 초음파 정밀 진단 후 주사 흡인술부터 재발률 낮은 결절종 절제술까지.",
     keywords: "청주 발 물혹, 결절종, 갱글리온 청주",
     canonicalPath: "/foot/ganglion",
     heroTitle: "청주 발 물혹(결절종)",
@@ -2027,7 +2033,7 @@ export const conditions: Condition[] = [
       ],
     },
     datePublished: "2025-01-20",
-    dateModified: "2026-04-10",
+    dateModified: "2026-06-24",
   },
   // ========== FRACTURE ==========
   {

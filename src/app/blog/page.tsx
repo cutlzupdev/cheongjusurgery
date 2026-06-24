@@ -5,7 +5,8 @@ export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "소식 — 윈윈정형외과",
-  description: "윈윈정형외과의 최신 소식과 의료 정보를 확인하세요.",
+  description:
+    "청주 윈윈정형외과 건강 칼럼. 무지외반증·PRP 주사·스포츠 재활 등 정형외과 질환의 증상·치료·수술·비용을 전문의가 직접 정리합니다.",
   alternates: { canonical: "/blog" },
 };
 
