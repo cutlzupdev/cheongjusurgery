@@ -355,3 +355,64 @@ export function getMedicalConditionJsonLd(props: {
     })),
   };
 }
+
+/**
+ * 서버에서 직접 입력한 전체 JSON-LD(jsonLdOverride)를 렌더링용 배열로 정규화.
+ * 값이 있으면 자동 생성 JSON-LD를 완전히 대체하기 위한 용도. 단일 객체도 배열로.
+ */
+export function normalizeJsonLdOverride(
+  value: unknown,
+): Record<string, unknown>[] | null {
+  const isObj = (v: unknown): v is Record<string, unknown> =>
+    !!v && typeof v === "object" && !Array.isArray(v);
+  if (!value) return null;
+  if (Array.isArray(value)) {
+    const blocks = value.filter(isObj);
+    return blocks.length ? blocks : null;
+  }
+  return isObj(value) ? [value] : null;
+}
+
+/**
+ * override JSON-LD에서 작성자(author)를 추출. 최상위 블록과 @graph 노드를 훑어
+ * 첫 번째 author(Person)의 name/jobTitle을 반환. 없으면 null.
+ */
+export function extractAuthorFromJsonLd(
+  value: unknown,
+): { name: string; jobTitle?: string } | null {
+  const isObj = (v: unknown): v is Record<string, unknown> =>
+    !!v && typeof v === "object" && !Array.isArray(v);
+  const blocks = normalizeJsonLdOverride(value);
+  if (!blocks) return null;
+
+  const nodes: Record<string, unknown>[] = [];
+  for (const block of blocks) {
+    nodes.push(block);
+    const graph = block["@graph"];
+    if (Array.isArray(graph)) {
+      for (const g of graph) if (isObj(g)) nodes.push(g);
+    }
+  }
+
+  for (const node of nodes) {
+    const author = node.author;
+    if (!author) continue;
+    const first = Array.isArray(author) ? author[0] : author;
+    if (isObj(first)) {
+      const name = first.name;
+      if (typeof name === "string" && name.trim()) {
+        const jobTitle = first.jobTitle;
+        return {
+          name: name.trim(),
+          jobTitle:
+            typeof jobTitle === "string" && jobTitle.trim()
+              ? jobTitle.trim()
+              : undefined,
+        };
+      }
+    } else if (typeof first === "string" && first.trim()) {
+      return { name: first.trim() };
+    }
+  }
+  return null;
+}

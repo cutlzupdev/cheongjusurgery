@@ -5,6 +5,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import { extractLinksFromContent, type ArticleSource } from "@/lib/api";
+import { normalizeJsonLdOverride } from "@/lib/schema";
 import "../prose.css";
 
 type ApiPost = {
@@ -20,6 +21,8 @@ type ApiPost = {
   createdAt?: string;
   hashtags?: string[];
   sources?: ArticleSource[] | null;
+  /** 전체 JSON-LD 직접 입력. 있으면 자동 생성 JSON-LD를 완전히 대체. */
+  jsonLdOverride?: Record<string, unknown> | Record<string, unknown>[];
   status: "draft" | "published";
 };
 
@@ -127,11 +130,19 @@ export default async function SlugPage({ params }: Props) {
       }));
   }
 
+  // admin이 전체 JSON-LD를 직접 입력(jsonLdOverride)한 경우 자동 생성을 완전히 대체한다.
+  const overrideSchemas = normalizeJsonLdOverride(post.jsonLdOverride);
+  const jsonLd = overrideSchemas
+    ? overrideSchemas.length === 1
+      ? overrideSchemas[0]
+      : overrideSchemas
+    : articleSchema;
+
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
       <article className="pt-28 pb-16 px-6">
